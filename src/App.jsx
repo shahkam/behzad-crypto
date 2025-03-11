@@ -1,8 +1,20 @@
+import FooteComponent from "./components/ui/Footer.component";
+import NavbarComponent from "./components/ui/Navbar.component";
 
 function App() {
   return (
-    <div className="App">
-        <h1>Behzad</h1>
+    <div>
+       {/* Navbar */}
+
+       <NavbarComponent />
+
+       {/* Wrapper */}
+       <div className="wrapper">
+        <h2>Wrapper</h2>
+       </div>
+
+       {/* Footer */}
+       <FooteComponent/>
     </div>
   );
 }
